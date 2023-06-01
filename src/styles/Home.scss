@@ -1,0 +1,46 @@
+@import "./Colors.scss";
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-color: $second;
+    border-radius: 0 0 200px 200px;
+    
+
+    >main {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+
+        >div {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            //margin-top: 180px;
+            >h1 {
+                font: 400 6rem $text1;
+                color: $first;
+            }
+
+            p {
+                font: 900 2rem $text1;
+                color: $first;
+            }
+        }
+    }
+
+
+        
+    }
+
+    
+
+
+    
+
+   

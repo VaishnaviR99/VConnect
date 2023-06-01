@@ -1,0 +1,43 @@
+@import "Colors.scss";
+
+.services {
+    width: 100%;
+    height: 120vh;
+    background-color: $first;
+    display: flex;
+    justify-content: flex-end;
+    // margin-top: 1rem;
+
+    >div {
+        width: 60%;
+        height: 100vh;
+        background-color: $second;
+        color: $first;
+        border-radius: 200px 0 0 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+
+        >h1 {
+            text-transform: uppercase;
+            border-bottom: 2px solid $first;
+            padding: 1rem;
+            width: 15rem;
+
+        }
+
+        >ul {
+            padding: 1.5rem;
+            >li {
+                color: $first;
+               
+                letter-spacing: 1px;
+                word-spacing: 2px;
+                line-height: 170%;
+                
+            }
+        }
+    }
+}
